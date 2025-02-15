@@ -1,6 +1,6 @@
 import { useAppDispatch, useAppSelector } from "@/lib/hooks";
 import { setIsDarkMode } from "@/lib/state";
-import { scrollToSection, scrollToTop } from "@/utils/scrollUtils";
+import { scrollToSection } from "@/utils/scrollUtils";
 import { Moon, Sun } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -19,7 +19,7 @@ const Navbar = () => {
       <nav className="flex items-center justify-between">
         <h1 className="font-semibold">
           <Link href="/homepage" className="hover:text-gray-400">
-            Teh's Portfolio
+            Teh&apos;s Portfolio
           </Link>
         </h1>
         <ul className="flex gap-3 items-center">

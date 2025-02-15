@@ -31,9 +31,9 @@ const AboutMeSection = () => {
               {" "}
               database optimization (SQL & NoSQL)
             </span>
-            . I'm passionate about designing efficient, user-centric solutions,
-            tackling complex engineering challenges, and integrating AI-driven
-            automation into real-world applications.
+            . I&apos;m passionate about designing efficient, user-centric
+            solutions, tackling complex engineering challenges, and integrating
+            AI-driven automation into real-world applications.
           </p>
           <p className="mt-4 leading-relaxed lg:text-justify">
             Currently, I am seeking opportunities to apply my skills in{" "}

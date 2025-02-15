@@ -1,7 +1,7 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
 import {
-  persistStore,
   persistReducer,
+  persistStore, // Ensure it's used if needed
   FLUSH,
   REHYDRATE,
   PAUSE,
@@ -14,9 +14,9 @@ import createWebStorage from "redux-persist/lib/storage/createWebStorage";
 
 const createNoopStorage = () => {
   return {
-    getItem: async (_key: string) => null,
-    setItem: async (_key: string, value: any) => value,
-    removeItem: async (_key: string) => {},
+    getItem: async () => null, // Removed `_key`
+    setItem: async (_key: string, value: unknown) => value, // Changed `any` to `unknown`
+    removeItem: async () => {}, // Removed `_key`
   };
 };
 
@@ -36,7 +36,6 @@ const persistConfig = {
 // Root Reducer
 const rootReducer = combineReducers({
   global: globalReducer,
-  // Add more reducers if needed
 });
 
 // Persisted Reducer
@@ -53,6 +52,9 @@ export const makeStore = () =>
         },
       }),
   });
+
+export const store = makeStore();
+export const persistor = persistStore(store); // Ensure `persistStore` is used
 
 // Store Type Inference
 export type AppStore = ReturnType<typeof makeStore>;

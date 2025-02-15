@@ -9,7 +9,6 @@ const Scroller = () => {
     const toggleVisibility = () => {
       setIsVisible(window.scrollY > 300);
     };
-    console.log(isVisible);
     window.addEventListener("scroll", toggleVisibility);
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);

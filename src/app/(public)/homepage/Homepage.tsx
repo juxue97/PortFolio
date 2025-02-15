@@ -21,7 +21,7 @@ const HomepageComponent = () => {
           {/* Left Column - Text Content */}
           <div className="text-left border-r-4 border-blue-300 pr-16">
             <h1 className="text-4xl font-bold">
-              Hello, I'm Teh Hung Wei!
+              Hello, I&apos;m Teh Hung Wei!
               <p className="text-lg text-gray-600">
                 Full Stack Developer | AI Engineer
               </p>
@@ -41,17 +41,17 @@ const HomepageComponent = () => {
               </p>
 
               <p className="text-lg text-right">
-                Through challenges, I'll stand my ground, <br />
+                Through challenges, I&apos;ll stand my ground, <br />
                 In code and data, truth is found. <br />
                 With passion strong and vision bright, <br />
-                I'll solve, I'll shape, I'll bring to light.
+                I&apos;ll solve, I&apos;ll shape, I&apos;ll bring to light.
               </p>
 
               <p className="text-lg">
                 A role where purpose finds its way, <br />
                 To innovate and pave the way. <br />
                 With every line and every test, <br />
-                I'll give my all, I'll do my best.
+                I&apos;ll give my all, I&apos;ll do my best.
               </p>
 
               <p className="text-lg text-right">

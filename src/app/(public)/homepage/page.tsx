@@ -2,7 +2,6 @@ import { Leaf } from "@/components/MovingAnimation";
 import { Metadata } from "next";
 import React from "react";
 import HomepageComponent from "./Homepage";
-import HomepageWrapper from "@/components/Layout/MainLayout";
 
 export const metadata: Metadata = {
   title: "About Me",

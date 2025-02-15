@@ -22,11 +22,12 @@ const ContactComponent = () => {
           {/* Left Column - Text Content */}
           <div>
             <div className="text-left border-r-4 border-blue-300 pr-10">
-              <h2 className="text-2xl font-semibold">Let's Connect!</h2>
+              <h2 className="text-2xl font-semibold">Let&apos;s Connect!</h2>
               <p className=" border-l-4 border-blue-500 mt-3 pl-3">
-                I'm actively looking for software development opportunities.
+                I&apos;m actively looking for software development
+                opportunities.
                 <br />
-                If you think I'm a good fit, feel free to reach out!
+                If you think I&apos;m a good fit, feel free to reach out!
                 <br />
                 Feel free to reach out for collaborations, job opportunities, or
                 just to say hi!

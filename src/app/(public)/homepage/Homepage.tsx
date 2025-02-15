@@ -7,7 +7,6 @@ import {
   InstagramSVG,
   LinkedInSVG,
 } from "@/components/SocialIcons/SocialMediasSVG";
-import { HomePageRouterLink } from "@/components/Link";
 import { HomepageRouters } from "@/components/Link/Homepage";
 
 const HomepageComponent = () => {

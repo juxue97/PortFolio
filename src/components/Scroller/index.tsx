@@ -1,3 +1,5 @@
+"use client";
+
 import { scrollToTop } from "@/utils/scrollUtils";
 import { ArrowUp } from "lucide-react";
 import React, { useEffect, useState } from "react";

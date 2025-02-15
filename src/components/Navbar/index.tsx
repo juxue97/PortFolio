@@ -1,3 +1,5 @@
+"use client";
+
 import { useAppDispatch, useAppSelector } from "@/lib/hooks";
 import { setIsDarkMode } from "@/lib/state";
 import { scrollToSection } from "@/utils/scrollUtils";

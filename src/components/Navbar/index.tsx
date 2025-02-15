@@ -2,7 +2,6 @@
 
 import { useAppDispatch, useAppSelector } from "@/lib/hooks";
 import { setIsDarkMode } from "@/lib/state";
-import { scrollToSection } from "@/utils/scrollUtils";
 import { Moon, Sun } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -25,7 +24,7 @@ const Navbar = () => {
           </Link>
         </h1>
         <ul className="flex gap-3 items-center">
-          <li>
+          {/* <li>
             <Link
               href="/homepage"
               className="hidden sm:flex hover:text-gray-400"
@@ -48,7 +47,7 @@ const Navbar = () => {
             >
               Contact
             </button>
-          </li>
+          </li> */}
           <li className="items-center">
             <button onClick={toggleDarkMode}>
               {isDarkMode ? (
